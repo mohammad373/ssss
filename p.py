@@ -29,7 +29,7 @@ def __target__():
     else:
             try:
               time.sleep(1)
-              print(Fore.RED = "[-] ~ Error : Your Domain Is Not Found ;(")
+              print(Fore.RED + "[-] ~ Error : Your Domain Is Not Found ;(")
               time.sleep(1)
               sys.exit()
             except:
