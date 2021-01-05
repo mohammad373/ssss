@@ -27,12 +27,10 @@ def __target__():
     if s1.status_code == 200:
         print(Forre.GREEN + "[+] ~ Your Domain Is Found ;))"
     else:
-        try:
+
               time.sleep(1)
               print(Fore.RED = "[-] ~ Error : Your Domain Is Not Found ;(")
               time.sleep(1)
-              sys.exit()
-        except:
               sys.exit()
     s2 = requests.get( "https://api.hackertarget.com/whatweb/?q="  +  target).text
     print(Fore.GREEN + s2)
