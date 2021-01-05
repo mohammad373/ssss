@@ -12,7 +12,7 @@ def __target__():
     time.sleep(1)
     print(Fore.RED + "Hello , I`m Bobot ;))")
     time.sleep(1)
-    target = input(Fore.BLUE + "[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.YELLO + "Pleass Enter Domain ==>  ")
+    target = input(Fore.BLUE + "[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Pleass Enter Domain ==>  ")
     if target == "" or None:
         try:
             time.sleep(1)
