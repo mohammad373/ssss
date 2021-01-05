@@ -35,7 +35,7 @@ def __target__():
             except:
                 sys.exit()
     s2 = requests.get( "https://api.hackertarget.com/whatweb/?q="  +  target).text
-    print(Fore.GREEN + s2)
+    print(Fore.RED + s2)
     time.sleep(1)
     sys.exit()
 __target__()
