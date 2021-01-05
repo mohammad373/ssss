@@ -25,7 +25,7 @@ def __target__():
         target = "http://" + target
     s1 = requests.get(target)
     if s1.status_code == 200:
-        print(Forre.GREEN + "[+] ~ Your Domain Is Found ;))")
+        print(Fore.GREEN + "[+] ~ Your Domain Is Found ;))")
     else:
             try:
               time.sleep(1)
